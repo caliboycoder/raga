@@ -10,7 +10,7 @@
 
     <SidebarMenu />
 
-    <a href="https://github.com/theoisdumb/raga"
+    <a href="https://github.com/caliboycoder/raga"
       class="block h-8 w-8 mt-auto"
       target="_blank" rel="noreferrer">
       <Github />
