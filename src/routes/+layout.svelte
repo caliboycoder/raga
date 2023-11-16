@@ -17,7 +17,7 @@
 </script>
 
 <svelte:head>
-  <title>{Object.keys($active).length !== 0 ? document.createRange().createContextualFragment($active.title).textContent + ' | raga.' : 'Raga | Where words fail, Music Speaks...'}</title>
+  <title>{Object.keys($active).length !== 0 ? document.createRange().createContextualFragment($active.title).textContent + ' | Raga | Where words fail, Music Speaks...' : 'Raga | Where words fail, Music Speaks...'}</title>
   <meta name="description" content="Raga | Where words fail, Music Speaks...">
   <link rel="icon" href="https://raga.vkdbois.xyz/img/favicon.png">
 
