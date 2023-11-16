@@ -18,7 +18,7 @@
 
 <svelte:head>
   <title>{Object.keys($active).length !== 0 ? document.createRange().createContextualFragment($active.title).textContent + ' | raga.' : 'raga.'}</title>
-  <meta name="description" content="A libre frontend for JioSaavn.">
+  <meta name="description" content="Raga | Where words fail, Music Speaks...">
   <link rel="icon" href="https://raga.vkdbois.xyz/img/favicon.png">
 
   <meta property="og:title" content="Raga.">
@@ -31,7 +31,7 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Raga.">
-  <meta name="twitter:description" content="A libre frontend for JioSaavn.">
+  <meta name="twitter:description" content="Raga | Where words fail, Music Speaks...">
   <meta name="twitter:image" content="https://raga.vkdbois.xyz/img/og.jpg"> 
 </svelte:head>
 
