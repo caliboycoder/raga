@@ -17,11 +17,11 @@
 </script>
 
 <svelte:head>
-  <title>{Object.keys($active).length !== 0 ? document.createRange().createContextualFragment($active.title).textContent + ' | raga.' : 'raga.'}</title>
+  <title>{Object.keys($active).length !== 0 ? document.createRange().createContextualFragment($active.title).textContent + ' | raga.' : 'Raga | Where words fail, Music Speaks...'}</title>
   <meta name="description" content="Raga | Where words fail, Music Speaks...">
   <link rel="icon" href="https://raga.vkdbois.xyz/img/favicon.png">
 
-  <meta property="og:title" content="Raga.">
+  <meta property="og:title" content="Raga | Where words fail, Music Speaks...">
   <meta property="og:url" content="https://ragaa.vercel.app">
   <meta property="og:description" content="Raga | Where words fail, Music Speaks...">
   <meta property="og:image" content="https://raga.vkdbois.xyz/img/og.jpg">
@@ -30,7 +30,7 @@
   <meta property="og:image:height" content="630">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Raga.">
+  <meta name="twitter:title" content="Raga | Where words fail, Music Speaks...">
   <meta name="twitter:description" content="Raga | Where words fail, Music Speaks...">
   <meta name="twitter:image" content="https://raga.vkdbois.xyz/img/og.jpg"> 
 </svelte:head>
