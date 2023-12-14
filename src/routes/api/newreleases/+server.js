@@ -6,7 +6,7 @@ export async function GET({ url }) {
     const resp = await fetch(baseURL + sub.newReleases, {
         method: 'GET',
         headers: {
-            cookie: 'L=english; gdpr_acceptance=true; DL=english'
+            cookie: 'L=hindi; gdpr_acceptance=true; DL=hindi'
         }
     })
     const data = await resp.json()
